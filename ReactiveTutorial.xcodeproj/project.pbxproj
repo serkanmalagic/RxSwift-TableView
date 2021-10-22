@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		41B51898D444298CD80E1E35 /* Pods_ReactiveTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6738AA1F33467878D619D2A1 /* Pods_ReactiveTutorial.framework */; };
+		F829829C272367FF009CEB50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F829829B272367FF009CEB50 /* LoginViewController.swift */; };
 		F8592B3726F1381900B05101 /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8592B3626F1381900B05101 /* RxTableViewController.swift */; };
 		F8DA871A26F10AE300EEEE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA871926F10AE300EEEE57 /* AppDelegate.swift */; };
 		F8DA871C26F10AE300EEEE57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA871B26F10AE300EEEE57 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 		5788BC017384753CA109CFA2 /* Pods-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift/Pods-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6738AA1F33467878D619D2A1 /* Pods_ReactiveTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10C4562BFF8CE930C579A98 /* Pods-ReactiveTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTutorial.release.xcconfig"; path = "Target Support Files/Pods-ReactiveTutorial/Pods-ReactiveTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		F829829B272367FF009CEB50 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8592B3626F1381900B05101 /* RxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
 		F8DA871626F10AE300EEEE57 /* ReactiveTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DA871926F10AE300EEEE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F8592B3626F1381900B05101 /* RxTableViewController.swift */,
+				F829829B272367FF009CEB50 /* LoginViewController.swift */,
 			);
 			path = RxSwiftTableView;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F829829C272367FF009CEB50 /* LoginViewController.swift in Sources */,
 				F8DA873426F11A4100EEEE57 /* SecondViewController.swift in Sources */,
 				F8DA871E26F10AE300EEEE57 /* ViewController.swift in Sources */,
 				F8DA871A26F10AE300EEEE57 /* AppDelegate.swift in Sources */,
